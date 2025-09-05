@@ -174,15 +174,21 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="container contact">
-    <h2>Contact Me</h2>
-    <form onsubmit="return validateForm()">
-      <input type="text" id="name" placeholder="Your Name"/>
-      <input type="email" id="email" placeholder="Your Email"/>
-      <textarea id="message" rows="5" placeholder="Your Message"></textarea>
-      <button type="submit" class="btn">Send</button>
-    </form>
-  </section>
+<section id="contact" class="container contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+
+  <!-- Formspree Form -->
+  <form id="contact-form" action="https://formspree.io/f/xqadgylg" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+
+  <p id="success-msg" style="display:none; text-align:center; color:green;">
+    Thank you! Your message has been sent.
+  </p>
+</section>
 
   <footer class="site-footer">
     <p>© 2025 Ernest Patrick</p>

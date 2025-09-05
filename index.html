@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ernest Patrick | Graphic Design Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 </head>
 <body>
+
   <!-- Header -->
   <header class="site-header">
     <div class="brand">Ernest Patrick</div>
@@ -20,40 +22,68 @@
 
   <!-- Hero -->
   <section id="hero" class="hero">
-    <h1>Graphic Designer</h1>
-    <p>Branding • Flyers • Posters • Social Media Designs</p>
+    <h1 class="typewriter">Graphic Designer • Branding • Flyers • Posters • Social Media</h1>
+    <p>Modern visuals for brands and events</p>
   </section>
 
   <!-- About -->
-  <section id="about" class="container about">
+  <section id="about" class="container about" data-aos="fade-up">
     <h2>About Me</h2>
-    <p>
-      I create bold, modern visuals for brands and events—specializing in
-      flyers, posters, and social media content. Explore my work by category below.
-    </p>
+    <p>I create bold, modern visuals for brands and events—specializing in flyers, posters, 
+      logos, and social media content. Explore my work by category below.</p>
   </section>
 
-  <!-- Categories -->
-  <section id="projects" class="container">
-    <h2>My Design Categories</h2>
-    <div class="cards">
-        <!-- Stlocity Flyers -->
-      <article class="card">
-        <img src="images/stylocity_images/April 5th.jpg" alt="Stylocity Designs"/>
+
+    <div class="cards masonry">
+      <!-- Flyers -->
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/flyers/all together.png" alt="Flyer Designs"/>
         <div class="card-body">
-          <h3>Stylocity</h3>
-          <p>A modern fashion brand, I created visual assets that reflected the brand’s 
-            stylish and contemporary identity. My work included designing social media 
-            posts, and digital flyers to showcase outfit collections. I also led the 
-            design of seasonal promotions and product launch materials, ensuring brand 
-            consistency across all platforms.</p>
-          <a class="btn" href="stylocity.html" target="_blank">View Designs</a>
+          <h3>Flyer Designs</h3>
+          <p>Various Kinds of Flyer Designs</p>
+          <a class="btn" href="flyers.html" target="_blank">View Designs</a>
         </div>
       </article>
 
-       <!-- LOGO DESIGNS -->
-      <article class="card">
-        <img src="images/logodesigns/K and F white 2.png" alt="logo Designs"/>
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/ideation360/Think without the box.jpg" alt="Ideation360° Flyer"/>
+        <div class="card-body">
+          <h3>Ideation360°</h3>
+          <p>Flyer Designs for Ideation360°.</p>
+          <a class="btn" href="ideation360.html" target="_blank">View Designs</a>
+        </div>
+      </article>
+
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/bjperfect/October bjperfect.jpg" alt="BJ Perfect Flyer"/>
+        <div class="card-body">
+          <h3>BJ Perfect Skincare</h3>
+          <p>Flyer Designs for BJ Perfect Skincare.</p>
+          <a class="btn" href="bjperfect.html" target="_blank">View Designs</a>
+        </div>
+      </article>
+
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/Cloudde/One year later.jpg" alt="Cloudde Flyer"/>
+        <div class="card-body">
+          <h3>Cloudde</h3>
+          <p>Flyer Designs for Cloudde.</p>
+          <a class="btn" href="cloudde.html" target="_blank">View Designs</a>
+        </div>
+      </article>
+
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/birthday_images/Happy Big Birthday Capita 2.jpg" alt="Birthday Flyer"/>
+        <div class="card-body">
+          <h3>Birthday Flyers</h3>
+          <p>Birthday Designs.</p>
+          <a class="btn" href="birthday.html" target="_blank">View Designs</a>
+        </div>
+      </article>
+
+      <!-- Logos -->
+      <article class="card logo" data-aos="zoom-in">
+        <img src="images/logodesigns/all together.png" alt="Logo Design"/>
         <div class="card-body">
           <h3>Logo Designs</h3>
           <p>Various Logo Design Projects.</p>
@@ -61,76 +91,36 @@
         </div>
       </article>
 
-      <!-- BJ Perfect -->
-      <article class="card">
-        <img src="images/bjperfect/October bjperfect.jpg" alt="Church Posters cover"/>
-        <div class="card-body">
-          <h3>BJ Perfect Skincare</h3>
-          <p>I was responsible for creating visually appealing designs that reflected the 
-            brand’s identity and connected with its audience. I designed social media 
-            content, and promotional materials that enhanced brand visibility 
-            nd customer engagement.</p>
-          <a class="btn" href="bjperfect.html" target="_blank">View Designs</a>
-        </div>
-      </article>
-
-      <!-- Cloudde -->
-      <article class="card">
-        <img src="images/Cloudde/One year later.jpg" alt="Cloudde Designs"/>
-        <div class="card-body">
-          <h3>Cloudde</h3>
-          <p>Creative visual assets that amplified the event’s brand presence across digital 
-            and print platforms. My responsibilities included designing promotional flyers, 
-            social media graphics, event banners, and presentation templates that captured 
-            the innovative spirit of the conference. </p>
-          <a class="btn" href="cloudde.html" target="_blank">View Designs</a>
-        </div>
-      </article>
-
-
-      <!-- Birthday Flyers -->
-      <article class="card">
-        <img src="images/birthday_images/Happy Big Birthday Capita 2.jpg" alt="Birthday Flyers cover"/>
-        <div class="card-body">
-          <h3>Birthday Flyers</h3>
-          <p>Celebratory designs for birthdays—portrait & square formats.</p>
-          <a class="btn" href="birthday.html" target="_blank">View Designs</a>
-        </div>
-      </article>
-
-      <!-- Cutelittle plum -->
-      <article class="card">
-        <img src="images/cutelittleplum/logos.jpg" alt="cutelittleplum"/>
+      <article class="card logo" data-aos="zoom-in">
+        <img src="images/cutelittleplum/logos.jpg" alt="Cute Little Plum Logo"/>
         <div class="card-body">
           <h3>Cute Little Plum</h3>
-          <p>Clean, impactful visuals for church events and programs.</p>
+          <p>Brand Identity Designs for Cute Little Plum.</p>
           <a class="btn" href="cutelittleplum.html" target="_blank">View Designs</a>
         </div>
       </article>
 
-      <!-- Lammy Light -->
-      <article class="card">
-        <img src="images/lammy/Golden 3d.jpg" alt="Lammy Light"/>
+      <article class="card logo" data-aos="zoom-in">
+        <img src="images/lammy/Golden 3d.jpg" alt="Lammy Light Logo"/>
         <div class="card-body">
           <h3>Lammy Light Luxury Rides</h3>
-          <p>Optimized layouts for Instagram & Facebook posts/stories.</p>
+          <p>Brand Identity Designs for Lammy Light Luxury Rides.</p>
           <a class="btn" href="lammy.html" target="_blank">View Designs</a>
         </div>
       </article>
 
-      <!-- The Rayo Brand -->
-      <article class="card">
-        <img src="images/therayobrand/Store.jpg" alt="The Rayo Brand"/>
+      <article class="card logo" data-aos="zoom-in">
+        <img src="images/moofly/LOGO 1 jpeg.jpg" alt="MOOfly Logo"/>
         <div class="card-body">
-          <h3>The Rayo Brand</h3>
-          <p>Celebratory designs for birthdays—portrait & square formats.</p>
-          <a class="btn" href="rayo.html" target="_blank">View Designs</a>
+          <h3>MOOfly</h3>
+          <p>Brand Identity Design for MOOfly.</p>
+          <a class="btn" href="moofly.html" target="_blank">View Designs</a>
         </div>
       </article>
 
       <!-- Church Posters -->
-      <article class="card">
-        <img src="images/church_images/REBORN 2.0.jpg" alt="Church Posters cover"/>
+      <article class="card church" data-aos="zoom-in">
+        <img src="images/church_images/REBORN 2.0.jpg" alt="Church Poster"/>
         <div class="card-body">
           <h3>Church Posters</h3>
           <p>Clean, impactful visuals for church events and programs.</p>
@@ -138,25 +128,20 @@
         </div>
       </article>
 
-      <!-- moofly -->
-      <article class="card">
-        <img src="images/moofly/LOGO 1 jpeg.jpg" alt="moofly"/>
+      <article class="card logo" data-aos="zoom-in">
+        <img src="images/therayobrand/Store.jpg" alt="The Rayo Brand"/>
         <div class="card-body">
-          <h3>MOOfly</h3>
-          <p>Optimized layouts for Instagram & Facebook posts/stories.</p>
-          <a class="btn" href="moofly.html" target="_blank">View Designs</a>
+          <h3>The Rayo Brand</h3>
+          <p>Brand Identity Designs for The Rayo Brand.</p>
+          <a class="btn" href="rayo.html" target="_blank">View Designs</a>
         </div>
       </article>
 
-      <!-- dfitspark -->
-      <article class="card">
-        <img src="images/dfitspark/Sport bra.jpg" alt="moofly"/>
+      <article class="card flyer" data-aos="zoom-in">
+        <img src="images/dfitspark/Sport bra.jpg" alt="DFitSpark Flyer"/>
         <div class="card-body">
           <h3>DFitSpark</h3>
-          <p>DFitSpark is introduced as the force that ignites your fitness journey.
-            It is postioned as the catalyst that lights up your commitment to staying active.
-          The Sportswear and equipment offered by DFitSpark are presented as the tools that 
-          enable and support this journey</p>
+          <p>Brand Identity Design of DFitSpark.</p>
           <a class="btn" href="dfitspark.html" target="_blank">View Designs</a>
         </div>
       </article>
@@ -164,18 +149,25 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="container contact">
-    <h2>Contact Me</h2>
-    <form onsubmit="return validateForm()">
-      <input type="text" id="name" placeholder="Your Name" />
-      <input type="email" id="email" placeholder="Your Email"/>
-      <textarea id="message" rows="5" placeholder="Your Message"></textarea>
-      <button type="submit" class="btn">Send</button>
-    </form>
-  </section>
+<section id="contact" class="container contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+
+  <!-- Formspree Form -->
+  <form id="contact-form" action="https://formspree.io/f/xqadgylg" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+
+  <p id="success-msg" style="display:none; text-align:center; color:green;">
+    Thank you! Your message has been sent.
+  </p>
+</section>
+
 
   <!-- Footer -->
-  <footer class="site-footer">
+  <footer class="site-footer" data-aos="fade-up">
     <p>© 2025 Ernest Patrick • All Rights Reserved</p>
     <div class="socials">
       <a href="https://www.linkedin.com/in/ernest-patrick-5b114626a" target="_blank">LinkedIn</a>
@@ -185,6 +177,7 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
