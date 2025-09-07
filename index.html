@@ -4,11 +4,12 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ernest Patrick | Graphic Design Portfolio</title>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 </head>
 <body>
-
   <!-- Header -->
   <header class="site-header">
     <div class="brand">Ernest Patrick</div>
@@ -22,18 +23,32 @@
 
   <!-- Hero -->
   <section id="hero" class="hero">
-    <h1 class="typewriter">Graphic Designer • Branding • Flyers • Posters • Social Media</h1>
+    <h1 class="typewriter">Logo Designs • Branding • Flyers • Social Media Designs</h1>
     <p>Modern visuals for brands and events</p>
   </section>
 
   <!-- About -->
   <section id="about" class="container about" data-aos="fade-up">
     <h2>About Me</h2>
-    <p>I create bold, modern visuals for brands and events—specializing in flyers, posters, 
-      logos, and social media content. Explore my work by category below.</p>
+    <p>
+      I see design as more than visuals, it is communication, emotion, and identity. 
+      As a Graphic Designer with additional expertise in social media, I specialize 
+      in creating designs that not only capture attention but also spark engagement 
+      and build lasting connections between brands and their audiences.
+      <br><br>
+      With over three years of experience, I have developed a versatile portfolio 
+      spanning fashion brands, tourism, beauty and skincare, wellness, education, 
+      food, media platforms, and startups. My work includes brand identities, 
+      marketing campaigns, and social media content designed to drive growth 
+      and increase visibility.
+      <br><br>
+      With a keen eye for detail and a dedication to delivering high-quality work, 
+      I strive to exceed my clients’ expectations with every project.
+    </p>
   </section>
 
-
+  <!-- Cards (Projects) -->
+  <section id="projects" class="container">
     <div class="cards masonry">
       <!-- Flyers -->
       <article class="card flyer" data-aos="zoom-in">
@@ -149,22 +164,18 @@
   </section>
 
   <!-- Contact -->
-<section id="contact" class="container contact" data-aos="fade-up">
-  <h2>Contact Me</h2>
-
-  <!-- Formspree Form -->
-  <form id="contact-form" action="https://formspree.io/f/xqadgylg" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send</button>
-  </form>
-
-  <p id="success-msg" style="display:none; text-align:center; color:green;">
-    Thank you! Your message has been sent.
-  </p>
-</section>
-
+  <section id="contact" class="container contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/xqadgylg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p id="success-msg" style="display:none; text-align:center; color:green;">
+      Thank you! Your message has been sent.
+    </p>
+  </section>
 
   <!-- Footer -->
   <footer class="site-footer" data-aos="fade-up">
@@ -177,6 +188,7 @@
     </div>
   </footer>
 
+  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
